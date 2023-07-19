@@ -14,7 +14,6 @@ workflows:
           -project "$XCODE_PROJECT" \
           -scheme "$XCODE_SCHEME" \
           -sdk iphonesimulator \
-          -test-xcargs "CODE_SIGNING_ALLOWED='no'"
           -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.4' \
           clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
       - name: Build debug app
