@@ -10,6 +10,8 @@ workflows:
     triggering:
       events:
         - push
+        - pull_request
+        - tag
     scripts:
       - name: Run tests
         script: |
