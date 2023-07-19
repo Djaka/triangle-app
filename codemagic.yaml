@@ -26,4 +26,4 @@ workflows:
     publishing:
       email:
         recipients:
-          - djakapermana95@gmail.com # Isikan email untuk notifikasi status building.
+          - djakapermana95.gr@gmail.com # Isikan email untuk notifikasi status building.
