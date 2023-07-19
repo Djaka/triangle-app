@@ -7,6 +7,9 @@ workflows:
       vars:
           XCODE_PROJECT: "TriangleApp.xcodeproj" # Isikan nama project Anda.
           XCODE_SCHEME: "TriangleApp" # Isikan nama scheme project Anda.
+    triggering:
+      events:
+        - push
     scripts:
       - name: Run tests
         script: |
